@@ -1,11 +1,12 @@
 # Author: Hemant Gangwar
 # Contact: learningtechnix@gmail.com
 # Purpose: Accessing chatgpt chatbot from python
+# API Keys location: https://platform.openai.com/account/api-keys
 
 import openai
 
 # Configure already captured api key
-openai.api_key = "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"
+openai.api_key = "<Enter your API key generated>"
 
 # Listing details of models
 #models = openai.Model.list()
